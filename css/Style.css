@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.tetris {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 3rem 0;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    margin-right: 6.125rem;
+}
+
+.info {
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.max_, .level_, .score_, .cleans_ {
+    margin-bottom: 1rem;
+}
+
+.levelUp {
+    color: #EC3535;
+}
+
+.playground > ul {
+    width: 15.625rem;
+    box-shadow: 2px 6px 15px 3px rgba(0, 0, 0, .09);
+    margin-right: 2rem;
+}
+
+.playground > ul > li {
+    width: 100%;
+    height: 1.625rem;
+}
+
+.playground > ul > li > ul {
+    display: flex;
+}
+
+.playground > ul > li > ul > li {
+    width: 1.625rem;
+    height: 1.625rem;
+    outline: 1px solid #F3F3F3;
+    
+}
+.game_text {
+    display: none;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #eeeeee;
+    left: 0;
+    top: 0;
+    font-size: 2.5rem;
+    
+}
+
+.game_text > button {
+    margin-top: 0.625rem;
+    border: none; 
+    cursor: pointer; 
+    outline: none; 
+    padding: 0.9375rem 1.25rem;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
+    background-color: white;
+}
+
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+
+.flink{
+    animation: flickerAnimation .1s infinite;
+}
+
+.tree {
+    background: linear-gradient(45deg, #EAD501 ,#FFF056);
+}
+
+.elleft {
+    background: linear-gradient(45deg, #1364A6 ,#7F9ED1);
+}
+
+.elright {
+    background: linear-gradient(45deg, #379A30 ,#83BE67);
+}
+
+.zleft {
+    background: linear-gradient(45deg, #DA8400 ,#FABE72);
+}
+
+.zright {
+    background: linear-gradient(45deg, #894085 ,#B077B2);
+}
+
+.bar {
+    background: linear-gradient(45deg, #59B0BD ,#85CCD9);
+}
+
+.square {
+    background: linear-gradient(45deg, #CC0A10 ,#D69591);
+}
