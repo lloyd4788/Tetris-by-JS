@@ -1,7 +1,7 @@
 # Tetris-by-JS
 Tetris by JS
 
-https://km-michael.github.io/Tetris-by-JS/
+https://lloyd4788.github.io/Tetris-by-JS/
 
 사용한 기술스택
 HTML, CSS, JavaScript
